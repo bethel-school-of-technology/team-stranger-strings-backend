@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\team-stranger-strings-backend.props" />
+</Project>
