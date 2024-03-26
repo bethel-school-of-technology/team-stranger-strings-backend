@@ -1,0 +1,6 @@
+@team_stranger_strings_backend_HostAddress = http://localhost:5209
+
+GET {{team_stranger_strings_backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
