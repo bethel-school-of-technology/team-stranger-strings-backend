@@ -1,4 +1,6 @@
 using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
+using backend.Models;
 
 namespace team_stranger_strings_backend.Models;
 
@@ -11,5 +13,8 @@ public class Vehicle
     public string? Colour { get; set; }
     public string? Photo { get; set; }
     public int Price { get; set; }
-
+    [JsonIgnore]
+    public User? User { get; set; }
+    [JsonIgnore]
+    public int? UserId { get; set; }
 }
