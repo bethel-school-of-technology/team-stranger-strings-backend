@@ -1,5 +1,6 @@
 using team_stranger_strings_backend.Migrations;
 using team_stranger_strings_backend.Models;
+using team_stranger_strings_backend.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +12,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddSqlite<VehicleDbContext>("Data Source=vehicle.db");
+builder.Services.AddScoped<IVehicleRepository, VehicleRepository>();
 
 var app = builder.Build();
 
