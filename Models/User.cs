@@ -3,7 +3,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Text.Json.Serialization;
 using team_stranger_strings_backend.Models;
 
-namespace backend.Models;
+namespace team_stranger_strings_backend.Models;
 
 public class User 
 {

@@ -1,6 +1,6 @@
 using team_stranger_strings_backend.Models;
 using Microsoft.EntityFrameworkCore;
-using backend.Models;
+
 
 namespace team_stranger_strings_backend.Migrations;
 

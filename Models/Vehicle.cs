@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
-using backend.Models;
+using team_stranger_strings_backend.Models;
 
 namespace team_stranger_strings_backend.Models;
 
