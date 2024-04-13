@@ -8917,11 +8917,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\judek\\OneDrive\\Documents\\bethel tech\\stranger-things-project\\team-stranger-strings-backend\\team-stranger-strings-backend.csproj",
+      "projectUniqueName": "C:\\Users\\judek\\OneDrive\\Documents\\bethel-tech\\stranger-things-project\\team-stranger-strings-backend\\team-stranger-strings-backend.csproj",
       "projectName": "team-stranger-strings-backend",
-      "projectPath": "C:\\Users\\judek\\OneDrive\\Documents\\bethel tech\\stranger-things-project\\team-stranger-strings-backend\\team-stranger-strings-backend.csproj",
+      "projectPath": "C:\\Users\\judek\\OneDrive\\Documents\\bethel-tech\\stranger-things-project\\team-stranger-strings-backend\\team-stranger-strings-backend.csproj",
       "packagesPath": "C:\\Users\\judek\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\judek\\OneDrive\\Documents\\bethel tech\\stranger-things-project\\team-stranger-strings-backend\\obj\\",
+      "outputPath": "C:\\Users\\judek\\OneDrive\\Documents\\bethel-tech\\stranger-things-project\\team-stranger-strings-backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\judek\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -8942,11 +8942,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -9011,7 +9006,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.104/PortableRuntimeIdentifierGraph.json"
       }
     }
   },

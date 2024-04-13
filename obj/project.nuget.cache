@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gw1NkEtxDg1Yw0yQQCTbkpxgbFiMOavsNaWo8xMYdhOTa6w30bAGldthmE57Ht7vsBUlSXZEqwCdq1nbRoShiw==",
+  "dgSpecHash": "3ZThxdGADY6PKoDORCtN9F9Dap6WWj400XSF0Tl9wkiDzUBCemas58Adrtxy55Sq497fg/NPGsoaIRq1uguQ/g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\judek\\OneDrive\\Documents\\bethel tech\\stranger-things-project\\team-stranger-strings-backend\\team-stranger-strings-backend.csproj",
+  "projectFilePath": "C:\\Users\\judek\\OneDrive\\Documents\\bethel-tech\\stranger-things-project\\team-stranger-strings-backend\\team-stranger-strings-backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\judek\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\judek\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
