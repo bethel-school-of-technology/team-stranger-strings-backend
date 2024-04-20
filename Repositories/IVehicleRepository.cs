@@ -9,5 +9,6 @@ public interface IVehicleRepository
     Vehicle CreateVehicle(Vehicle newVehicle);
     Vehicle? UpdateVehicle(Vehicle newVehicle);
     void DeleteVehicleById(int VehicleId);
+    IEnumerable<Vehicle>? GetUsersVehicles(string Email);
 
 }

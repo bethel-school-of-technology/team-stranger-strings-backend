@@ -69,4 +69,9 @@ public class VehicleRepository : IVehicleRepository
         }
         return originalVehicle;
     }
+
+    public IEnumerable<Vehicle> GetUsersVehicles(string Email)
+    {
+        return _context.Vehicles.Where(Vehicle => Vehicle.User.Email == Email).ToList();
+    }
 }

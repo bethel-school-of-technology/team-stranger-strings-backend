@@ -64,5 +64,16 @@ namespace team_stranger_strings_backend.Controllers
             _VehicleRepository.DeleteVehicleById(VehicleId); 
             return NoContent();
         }
+
+        [HttpGet]
+        [Route("{username}")]
+        public ActionResult<Vehicle> GetUsersVehicles(string username) 
+        {
+            var Vehicle = _VehicleRepository.GetUsersVehicles(username);
+            if (Vehicle == null) {
+                return NotFound();
+            }
+            return Ok(Vehicle);
+        }
     }
 }
