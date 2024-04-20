@@ -2,6 +2,7 @@ using team_stranger_strings_backend.Models;
 using team_stranger_strings_backend.Repositories;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 namespace team_stranger_strings_backend.Controllers
 {
@@ -36,6 +37,7 @@ namespace team_stranger_strings_backend.Controllers
         }
 
         [HttpPost]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         public ActionResult<Vehicle> CreateVehicle(Vehicle Vehicle) 
         {
             if (!ModelState.IsValid || Vehicle == null) {

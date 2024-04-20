@@ -7,18 +7,33 @@ namespace team_stranger_strings_backend.Repositories;
 public class VehicleRepository : IVehicleRepository 
 {
     private readonly VehicleDbContext _context;
-
-    public VehicleRepository(VehicleDbContext context)
+    private readonly IHttpContextAccessor _httpContextAccessor;
+    private readonly IUserRepository _userService;
+    public VehicleRepository(VehicleDbContext context, IHttpContextAccessor httpContextAccessor, IUserRepository service)
     {
         _context = context;
+        _httpContextAccessor = httpContextAccessor;
+        _userService = service;
     }
 
 
     public Vehicle CreateVehicle(Vehicle newVehicle)
     {
+        
+        var email = _httpContextAccessor.HttpContext.User.Identity.Name;
+        var user = _userService.GetUserByEmail(email);
+        if (user != null)
+    {
+        newVehicle.UserId = user.UserId;
+        newVehicle.User = user;
+
         _context.Vehicles.Add(newVehicle);
         _context.SaveChanges();
         return newVehicle;
+    }
+
+    throw new InvalidOperationException("User not found");
+        
     }
 
     public void DeleteVehicleById(int VehicleId)

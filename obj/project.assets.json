@@ -8912,19 +8912,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ivana\\.nuget\\packages\\": {}
+    "C:\\Users\\judek\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ivana\\Desktop\\team-stranger-strings-backend\\team-stranger-strings-backend.csproj",
+      "projectUniqueName": "C:\\Users\\judek\\OneDrive\\Documents\\bethel-tech\\stranger-things-project\\team-stranger-strings-backend\\team-stranger-strings-backend.csproj",
       "projectName": "team-stranger-strings-backend",
-      "projectPath": "C:\\Users\\Ivana\\Desktop\\team-stranger-strings-backend\\team-stranger-strings-backend.csproj",
-      "packagesPath": "C:\\Users\\Ivana\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ivana\\Desktop\\team-stranger-strings-backend\\obj\\",
+      "projectPath": "C:\\Users\\judek\\OneDrive\\Documents\\bethel-tech\\stranger-things-project\\team-stranger-strings-backend\\team-stranger-strings-backend.csproj",
+      "packagesPath": "C:\\Users\\judek\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\judek\\OneDrive\\Documents\\bethel-tech\\stranger-things-project\\team-stranger-strings-backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Ivana\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\judek\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
