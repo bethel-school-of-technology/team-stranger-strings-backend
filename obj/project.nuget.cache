@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gUuzSCmsYKfdwBGUGjQaiRHCyFpzmKaOw8/jUsZYTZzLrGQvfmDi36xPMMDsIi0ny4b//l2tjw1w/vklCEFW4w==",
+  "dgSpecHash": "nS5q3wPncnvz0t4vjSQlPds74KbcE+UzlzWb2OS8aE6sp5/FbBPF7D/R3xwNmkqSoZYzzSQxry9KD8JrLlHouQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\judek\\OneDrive\\Documents\\bethel tech\\stranger-things-project\\team-stranger-strings-backend\\team-stranger-strings-backend.csproj",
+  "projectFilePath": "C:\\Users\\judek\\OneDrive\\Documents\\bethel-tech\\stranger-things-project\\team-stranger-strings-backend\\team-stranger-strings-backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\judek\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\judek\\.nuget\\packages\\google.protobuf\\3.25.1\\google.protobuf.3.25.1.nupkg.sha512",
