@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("team-stranger-strings-backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+81e9cacef5049526ce4ffed0a177504f7d06b17b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+76429be5850dd4d12d03df71e1b27373957b9a82")]
 [assembly: System.Reflection.AssemblyProductAttribute("team-stranger-strings-backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("team-stranger-strings-backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

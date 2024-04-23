@@ -502,3 +502,6 @@ C:\Users\Ivana\Desktop\team-stranger-strings-backend\obj\Debug\net8.0\refint\tea
 C:\Users\Ivana\Desktop\team-stranger-strings-backend\obj\Debug\net8.0\team-stranger-strings-backend.pdb
 C:\Users\Ivana\Desktop\team-stranger-strings-backend\obj\Debug\net8.0\team-stranger-strings-backend.genruntimeconfig.cache
 C:\Users\Ivana\Desktop\team-stranger-strings-backend\obj\Debug\net8.0\ref\team-stranger-strings-backend.dll
+C:\Users\Ivana\Desktop\team-stranger-strings-backend\bin\Debug\net8.0\package-lock.json
+C:\Users\Ivana\Desktop\team-stranger-strings-backend\bin\Debug\net8.0\package.json
+C:\Users\Ivana\Desktop\team-stranger-strings-backend\bin\Debug\net8.0\IdentityModel.dll

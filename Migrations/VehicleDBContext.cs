@@ -35,6 +35,7 @@ public class VehicleDbContext : DbContext
             entity.Property(e => e.Photo).IsRequired();
             entity.Property(e => e.Price).IsRequired();
             entity.Property(e => e.UserId).IsRequired(false);
+            entity.Property(e => e.UserEmail).IsRequired(false);
         });
 
         modelBuilder.Entity<User>(entity =>
@@ -57,7 +58,8 @@ public class VehicleDbContext : DbContext
                 Colour = "blue",
                 Photo = "https://www.motortrend.com/uploads/2022/09/2023-Audi-RS-Q8-PVOTY22-24.jpg",
                 Price = 79100,
-                UserId = 1
+                UserId = 1,
+                UserEmail = "ivanasocegovorko@gmail.com",
             }
         );
 

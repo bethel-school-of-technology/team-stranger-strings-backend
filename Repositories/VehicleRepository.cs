@@ -25,6 +25,7 @@ public class VehicleRepository : IVehicleRepository
         if (user != null)
     {
         newVehicle.UserId = user.UserId;
+        newVehicle.UserEmail = user.Email;
         newVehicle.User = user;
 
         _context.Vehicles.Add(newVehicle);
@@ -65,6 +66,7 @@ public class VehicleRepository : IVehicleRepository
             originalVehicle.Photo = newVehicle.Photo;
             originalVehicle.Price = newVehicle.Price;
             originalVehicle.UserId = newVehicle.UserId;
+            originalVehicle.UserEmail = newVehicle.UserEmail;
             _context.SaveChanges();
         }
         return originalVehicle;

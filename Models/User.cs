@@ -7,7 +7,6 @@ namespace team_stranger_strings_backend.Models;
 
 public class User 
 {
-    [JsonIgnore]
     public int UserId { get; set; }
     public string? FirstName { get; set; }
     public string? LastName { get; set; }

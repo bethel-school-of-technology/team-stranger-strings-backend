@@ -13,8 +13,9 @@ public class Vehicle
     public string? Colour { get; set; }
     public string? Photo { get; set; }
     public int Price { get; set; }
-    [JsonIgnore]
+
     public User? User { get; set; }
-    [JsonIgnore]
+
     public int? UserId { get; set; }
+    public string? UserEmail { get; set; }
 }
